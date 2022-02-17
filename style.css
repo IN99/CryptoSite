@@ -1,0 +1,86 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    background-image: url("backg.jpg");
+    background-size: 100%;
+}
+
+
+/* Navigation bar style */
+
+.navigation {
+    text-align: left;
+    overflow: hidden;
+    position: fixed;
+    padding: 6px;
+    height: 60px;
+    width: 100%;
+    background: #1E2022;
+    z-index: 1;
+}
+#webName{
+    color: white;
+    font-size:40px;
+    padding-left: 10px;
+
+}
+
+.buttonsDiv{
+    position: absolute;
+    right: 0px;
+    padding-right: 20px;
+    top: 10px;
+}
+/* Data and container style */
+.main-container {
+    position: relative;
+    width: 100%;
+    height: 140vh;
+}
+
+#homeTitle{
+    position: absolute;
+    top: 100px;
+    padding-left: 10px;
+    color: white;
+}
+
+#sentimentDiv{
+    position: absolute;
+    top: 90px;
+    left: -20px;
+}
+
+#numericalDiv{
+    position: absolute;
+    top: 130px;
+    right: 10px;
+}
+
+.table-dark{
+    position: absolute;
+    width: 1200px;
+}
+
+#tweetTable{
+    overflow: auto;
+    max-height: 20em;
+    position: absolute;
+    top: 560px;
+    left: 20px;
+}
+
+#tweetTableTitle{
+    position: absolute;
+    top: 480px;
+    padding-left: 10px;
+    color: white;
+}
+
+
+th{
+    position: sticky;
+    top: 0;
+    background: black;
+}
